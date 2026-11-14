@@ -1,0 +1,12 @@
+Sample.ID,patients,ER,PR,HER2,AIMS,PAM50,SCMOD2,EVEROLIMUS_BestAvgResponse
+SA992T,1963,Negative,Negative,Negative,Basal,Basal,Basal,-38.16919192
+SA1040T,2061,Negative,Negative,Negative,Basal,Basal,Basal,-10.15020482
+SA1033T,1945,Negative,Negative,Negative,Basal,Basal,Basal,-9.402904788
+SA1024T,1939,Negative,Negative,Negative,Basal,Basal,Basal,67.02441077
+SA1023T,1915,Negative,Negative,Negative,Basal,Basal,Basal,177.9140502
+SA1017T,1876,Negative,Negative,Negative,Basal,Normal,Basal,-58.28072391
+SA1035T,2006,Negative,Negative,Negative,Basal,Normal,Basal,-28.22544643
+SA1037T,2029,Negative,Negative,Negative,Basal,Normal,Basal,12.02226345
+SA1025T,1863,Negative,Negative,Negative,Basal,LumA,Basal,-12.41898148
+SA1022T,1886,Negative,Negative,Negative,Basal,LumA,Basal,68.65754438
+SA920T,1735,Negative,Negative,Borderline,Basal,LumA,Basal,47.38864682

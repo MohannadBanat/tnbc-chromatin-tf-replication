@@ -1,0 +1,17 @@
+lines with gene effect: TNBC 14, luminal 3, other 293; TNBC with expression 14
+TFs testable: 1915 of 1996; HC-TFs testable: 93 of 94; missing: ['FOXI3']
+H3 primary (all TFs): HC-TF dependency rate 0.075 (7/93) | matched null mean 0.072 [95% 0.032-0.129] | fold 1.04 | two-sided p 1.0000
+H3a excluding common essentials: HC-TF dependency rate 0.000 (0/82) | matched null mean 0.000 [95% 0.000-0.000] | fold nan | two-sided p 1.0000
+
+HC-TFs that are TNBC dependencies (median <= -0.5):
+    TF  median_TNBC  median_luminal  median_other  common_essential  FDR_vs_luminal  FDR_vs_other  TNBC_selective
+ MED30        -1.44           -1.91         -1.45              True           0.948          0.85           False
+   MYC         -1.2           -1.69          -1.3              True           0.948         0.869           False
+ HMGA1        -1.09           -1.05        -0.909              True           0.951         0.235           False
+  LIN9       -0.824          -0.995        -0.945              True           0.948         0.688           False
+  ILF2       -0.773          -0.735         -1.07              True           0.948        0.0717           False
+NFE2L3         -0.6          -0.723        -0.609              True           0.948         0.985           False
+   SRF       -0.599          -0.327        -0.543              True           0.948         0.688           False
+
+TNBC-selective dependencies (all three criteria): []
+Nominally TNBC < luminal (p<0.05, any dependency level): []

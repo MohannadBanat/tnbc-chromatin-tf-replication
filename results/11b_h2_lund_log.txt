@@ -1,0 +1,6 @@
+Lund lines: 8; shared with released activities: 6 (BT549, HCC1599, HCC1937, MDA_MB_231, MDA_MB_453, MDA_MB_468)
+HC-TFs: 93; median per-TF rho = 0.829 (bootstrap 95% CI 0.600-1.000); exact permutation null (719 permutations) median -0.029; one-sided p = 0.0014
+HC-TFs rho >= 0.5: 73; non-HC median 0.829
+  NFE2L3: rho = 0.429
+  CBFB: rho = 0.943
+Line identity (exploratory): same-line rho median 0.295, different-line median -0.058; released profile best matched by its own Lund line for 3/6 lines

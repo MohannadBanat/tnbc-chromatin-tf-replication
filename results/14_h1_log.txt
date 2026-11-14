@@ -1,0 +1,42 @@
+Bahl: 48 samples, 24 lines, 6564981 peaks
+Consensus regions (called in >= 2 samples): 504081 of 867741 merged regions; median width 463 bp
+[    12s] Bahl matrix built
+[    50s] Lund GSM9856660_BT_549_rep1.bw done
+[    89s] Lund GSM9856661_BT_549_rep2.bw done
+[   126s] Lund GSM9856662_HCC1599_rep1.bw done
+[   164s] Lund GSM9856663_HCC1599_rep2.bw done
+[   204s] Lund GSM9856664_HCC1937_rep1.bw done
+[   242s] Lund GSM9856665_HCC1937_rep2.bw done
+[   277s] Lund GSM9856666_HCC2157_rep1.bw done
+[   312s] Lund GSM9856667_HCC2157_rep2.bw done
+[   350s] Lund GSM9856668_MDA_MB_231_rep1.bw done
+[   389s] Lund GSM9856669_MDA_MB_231_rep2.bw done
+[   426s] Lund GSM9856670_MDA_MB_453_rep1.bw done
+[   464s] Lund GSM9856671_MDA_MB_453_rep2.bw done
+[   504s] Lund GSM9856672_MDA_MB_468_rep1.bw done
+[   544s] Lund GSM9856673_MDA_MB_468_rep2.bw done
+[   582s] Lund GSM9856674_SUM185PE_rep1.bw done
+[   619s] Lund GSM9856675_SUM185PE_rep2.bw done
+Lund lines: ['BT549', 'HCC1599', 'HCC1937', 'HCC2157', 'MDAMB231', 'MDAMB453', 'MDAMB468', 'SUM185PE']; shared lines: ['BT549', 'HCC1937', 'MDAMB231', 'MDAMB468']
+Replicate agreement (Spearman over consensus regions): Lund {'BT549': np.float64(0.743), 'HCC1937': np.float64(0.822), 'MDAMB231': np.float64(0.877), 'MDAMB468': np.float64(0.831)} | Bahl {'BT549': np.float64(0.682), 'HCC1937': np.float64(0.692), 'MDAMB231': np.float64(0.89), 'MDAMB468': np.float64(0.725)}
+/home/claude/Biomolecules - Research article NOV 2026/scripts/14_h1_crosslab_chromatin.py:97: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  cB = lB.sub(lB.mean(1), axis=0); cL = lL.sub(lL.mean(1), axis=0)
+/home/claude/Biomolecules - Research article NOV 2026/scripts/14_h1_crosslab_chromatin.py:97: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  cB = lB.sub(lB.mean(1), axis=0); cL = lL.sub(lL.mean(1), axis=0)
+HC-TF promoters located: 94 of 94
+                                              set     line  same_line_crosslab  max_within_Bahl max_within_Bahl_line  max_within_Lund max_within_Lund_line  primary_pass  crosslab_rank_of_same_line  n_bahl_lines  best_crosslab_other best_crosslab_other_line
+                             consensus peaks, raw    BT549               0.390            0.428              HCC1395            0.522             MDAMB231         False                           1            24                0.362                    HDQP1
+                             consensus peaks, raw  HCC1937               0.471            0.435                 BT20            0.595             MDAMB468         False                           3            24                0.504                    HDQP1
+                             consensus peaks, raw MDAMB231               0.524            0.568               HS578T            0.557              HCC1937         False                           1            24                0.492                    HDQP1
+                             consensus peaks, raw MDAMB468               0.691            0.549                HDQP1            0.595              HCC1937          True                           1            24                0.470                    HDQP1
+consensus peaks, centred within lab (exploratory)    BT549               0.348            0.585             MDAMB436            0.190             MDAMB231         False                           1            24                0.249                   HS578T
+consensus peaks, centred within lab (exploratory)  HCC1937               0.328            0.458             MDAMB436            0.189             MDAMB231         False                           1            24                0.187                   CAL851
+consensus peaks, centred within lab (exploratory) MDAMB231               0.375            0.391               HS578T            0.190                BT549         False                           1            24                0.293                   HS578T
+consensus peaks, centred within lab (exploratory) MDAMB468               0.479            0.310              HCC1187            0.131              HCC1937          True                           1            24                0.107                   CAL851
+                   HC-TF promoters (TSS +/- 1 kb)    BT549               0.844            0.834               HS578T            0.751              HCC1937          True                           1            24                0.767                   HS578T
+                   HC-TF promoters (TSS +/- 1 kb)  HCC1937               0.795            0.768                  MX1            0.779             SUM185PE          True                           1            24                0.776                 SUM149PT
+                   HC-TF promoters (TSS +/- 1 kb) MDAMB231               0.721            0.751             SUM159PT            0.747             MDAMB453         False                           3            24                0.779                   HS578T
+                   HC-TF promoters (TSS +/- 1 kb) MDAMB468               0.831            0.770              HCC1187            0.741              HCC1937          True                           1            24                0.739                  HCC1187
+consensus peaks, raw: primary criterion met for 1/4 shared lines; same line ranked first cross-lab for 3/4
+consensus peaks, centred within lab (exploratory): primary criterion met for 1/4 shared lines; same line ranked first cross-lab for 4/4
+HC-TF promoters (TSS +/- 1 kb): primary criterion met for 3/4 shared lines; same line ranked first cross-lab for 3/4

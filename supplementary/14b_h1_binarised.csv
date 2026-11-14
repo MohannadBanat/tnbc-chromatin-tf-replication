@@ -1,0 +1,5 @@
+set,line,same_line_crosslab,max_within_Bahl,max_within_Bahl_line,max_within_Lund,max_within_Lund_line,primary_pass,crosslab_rank_of_same_line,n_bahl_lines,best_crosslab_other,best_crosslab_other_line
+"binarised, Jaccard",BT549,0.31,0.3135,HS578T,0.3602,MDAMB231,False,2,24,0.356,HDQP1
+"binarised, Jaccard",HCC1937,0.3515,0.3747,BT20,0.4499,MDAMB468,False,8,24,0.4612,HDQP1
+"binarised, Jaccard",MDAMB231,0.5152,0.4419,HDQP1,0.4239,HCC1937,True,1,24,0.4543,HDQP1
+"binarised, Jaccard",MDAMB468,0.5964,0.409,HDQP1,0.4499,HCC1937,True,1,24,0.4172,HDQP1

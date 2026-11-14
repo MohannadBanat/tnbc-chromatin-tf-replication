@@ -1,0 +1,6 @@
+TNBC lines in both CRISPR screens: 14 (ACH-000111, ACH-000148, ACH-000223, ACH-000276, ACH-000374, ACH-000573, ACH-000624, ACH-000668, ACH-000699, ACH-000768, ACH-000849, ACH-000856, ACH-000910, ACH-001819)
+Agreement of per-TF median effect: all TFs rho = 0.830 (n = 1905); HC-TFs rho = 0.815 (n = 93)
+Per-HC-TF across-line agreement: median rho = 0.512
+
+RNAi: TNBC lines 32; HC-TFs measured 88; HC-TFs with median <= -0.5: ['MYBL2', 'PLAGL1']
+CRISPR vs RNAi per-HC-TF median effect (TNBC lines in both): rho = 0.304 (n = 87)

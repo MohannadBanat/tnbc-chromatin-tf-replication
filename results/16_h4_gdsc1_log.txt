@@ -1,0 +1,43 @@
+Bahl pairs significant in >= 2 datasets: 176
+GDSC1 rows in frozen TNBC lines: 7819; lines 24; drug_ids 388
+TNBC lines with GDSC1 + expression: 24
+Pairs testable in GDSC1: 125 of 176; replicated 6 (0.048; 95% CI 0.018-0.102); same direction 88/125; n lines median 22 (range 6-23)
+reported_in_GDSC1000 (4, 96, np.float64(0.01146768916613227), np.float64(0.10325744444981888))
+CTRPv2_GRAY_only (2, 29, np.float64(0.00846396225300183), np.float64(0.22766188994448608))
+Random-pair null (1,000 sets; 10,000 permutations per pair): mean 0.0335 (95% 0.0080-0.0642); one-sided p = 0.252
+
+mTOR-targeting compounds x NFE2L3 / CBFB:
+        drug  drug_id                         target     TF     C      p  n   FDR
+     AZD8055     1059                 MTORC1, MTORC2   CBFB 0.351 0.0567 22 0.533
+     Torin 2      371                           mTOR   CBFB 0.357 0.0755 21 0.533
+  Apitolisib      382                     mTOR, PI3K   CBFB 0.387  0.142 23 0.606
+  WYE-125132      317                           mTOR   CBFB 0.403  0.206 23 0.606
+     AZD2014     1441                 mTORC1, mTORC2   CBFB 0.407  0.238 22 0.606
+  Voxtalisib      375    PI3K (class 1), DNAPK, MTOR   CBFB 0.423  0.328 23 0.606
+  Omipalisib      283 PI3K (class 1), MTORC1, MTORC2   CBFB 0.565  0.404 23 0.648
+  QL-VIII-58     1166                      MTOR, ATR   CBFB 0.357  0.405  8 0.648
+     OSI-027      299                 MTORC1, MTORC2   CBFB 0.458  0.598 23 0.844
+  Dactolisib     1057 PI3K (class 1), MTORC1, MTORC2   CBFB 0.472  0.736 22 0.929
+Temsirolimus     1016                           MTOR   CBFB 0.506  0.953 22     1
+   JW-7-52-1       83                           MTOR   CBFB 0.467      1  6     1
+     AZD2014     1441                 mTORC1, mTORC2 NFE2L3 0.364 0.0812 22 0.533
+  Dactolisib     1057 PI3K (class 1), MTORC1, MTORC2 NFE2L3 0.368 0.0888 22 0.533
+  WYE-125132      317                           mTOR NFE2L3 0.411  0.247 23 0.606
+     Torin 2      371                           mTOR NFE2L3  0.41  0.261 21 0.606
+     AZD8055     1059                 MTORC1, MTORC2 NFE2L3 0.411  0.262 22 0.606
+  Voxtalisib      375    PI3K (class 1), DNAPK, MTOR NFE2L3 0.581  0.303 23 0.606
+Temsirolimus     1016                           MTOR NFE2L3  0.42  0.312 22 0.606
+  Apitolisib      382                     mTOR, PI3K NFE2L3 0.451  0.525 23 0.788
+     OSI-027      299                 MTORC1, MTORC2 NFE2L3 0.466  0.671 23 0.894
+  Omipalisib      283 PI3K (class 1), MTORC1, MTORC2 NFE2L3 0.478  0.797 23 0.957
+  QL-VIII-58     1166                      MTOR, ATR NFE2L3 0.464   0.91  8     1
+   JW-7-52-1       83                           MTOR NFE2L3 0.467      1  6     1
+
+Replicated pairs:
+       drug       TF         cohorts  reported_mean_C  gdsc1_C  gdsc1_p  n_lines
+   Afatinib    GRHL3 CTRPv2|GDSC1000            0.793     0.68   0.0182       22
+Doxorubicin   DNMT3A     CTRPv2|GRAY             0.84      0.7   0.0083       23
+  Lapatinib     VAX2 CTRPv2|GDSC1000            0.857        1   0.0025        6
+  PD 173074    NCOA7   GDSC1000|GRAY            0.164    0.316   0.0143       22
+  PD 173074 PPARGC1B   GDSC1000|GRAY           0.0901    0.312   0.0149       22
+Selumetinib    CREB5     CTRPv2|GRAY            0.882    0.675   0.0218       22

@@ -1,0 +1,13 @@
+set,line,same_line_crosslab,max_within_Bahl,max_within_Bahl_line,max_within_Lund,max_within_Lund_line,primary_pass,crosslab_rank_of_same_line,n_bahl_lines,best_crosslab_other,best_crosslab_other_line
+"consensus peaks, raw",BT549,0.3899,0.4281,HCC1395,0.5223,MDAMB231,False,1,24,0.3623,HDQP1
+"consensus peaks, raw",HCC1937,0.4705,0.4348,BT20,0.5947,MDAMB468,False,3,24,0.5038,HDQP1
+"consensus peaks, raw",MDAMB231,0.5244,0.5684,HS578T,0.5568,HCC1937,False,1,24,0.492,HDQP1
+"consensus peaks, raw",MDAMB468,0.6912,0.5494,HDQP1,0.5947,HCC1937,True,1,24,0.4703,HDQP1
+"consensus peaks, centred within lab (exploratory)",BT549,0.3476,0.5846,MDAMB436,0.1895,MDAMB231,False,1,24,0.2494,HS578T
+"consensus peaks, centred within lab (exploratory)",HCC1937,0.3279,0.4579,MDAMB436,0.1885,MDAMB231,False,1,24,0.1871,CAL851
+"consensus peaks, centred within lab (exploratory)",MDAMB231,0.3751,0.3913,HS578T,0.1895,BT549,False,1,24,0.2931,HS578T
+"consensus peaks, centred within lab (exploratory)",MDAMB468,0.4788,0.3103,HCC1187,0.1314,HCC1937,True,1,24,0.1071,CAL851
+HC-TF promoters (TSS +/- 1 kb),BT549,0.8442,0.8344,HS578T,0.7506,HCC1937,True,1,24,0.7672,HS578T
+HC-TF promoters (TSS +/- 1 kb),HCC1937,0.7951,0.7682,MX1,0.7791,SUM185PE,True,1,24,0.7765,SUM149PT
+HC-TF promoters (TSS +/- 1 kb),MDAMB231,0.7206,0.7511,SUM159PT,0.7467,MDAMB453,False,3,24,0.7787,HS578T
+HC-TF promoters (TSS +/- 1 kb),MDAMB468,0.8306,0.7703,HCC1187,0.7406,HCC1937,True,1,24,0.7386,HCC1187

@@ -1,0 +1,7 @@
+data/depmap_raw/*.csv
+data/geo/GSE337500/*.bw
+data/geo/GSE323120/*.tar
+data/geo/GSE323120/*.gz
+data/geo/refseq/
+results/14b_h1_matrices.pkl
+data/gdsc_raw/*.gz

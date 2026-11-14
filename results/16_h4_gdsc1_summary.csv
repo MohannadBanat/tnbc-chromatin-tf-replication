@@ -1,0 +1,2 @@
+n_pairs_reported,n_testable,n_replicated,rate,ci_lo,ci_hi,same_direction,null_mean,null_lo,null_hi,p_vs_null,n_lines,n_lines_median_per_pair,k_in_GDSC1000,m_in_GDSC1000,k_CTRPv2_GRAY_only,m_CTRPv2_GRAY_only
+176,125,6,0.048,0.01781632250050253,0.1015486810886217,88,0.033471999999999995,0.008,0.06419999999999981,0.2517482517482518,24,22.0,4,96,2,29

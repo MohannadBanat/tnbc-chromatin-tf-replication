@@ -1,0 +1,5 @@
+screened lines by group: {'other_lineage': 1047, 'TNBC': 25, 'breast_other': 15, 'luminal': 8}
+screened TNBC by subtype: {'basal_B': 11, 'basal_A': 7, 'luminal_like_TNBC': 4, 'basal_unspecified': 3}
+TNBC screened: BT549, CAL120, CAL51, DU4475, HCC1143, HCC1187, HCC1395, HCC1806, HCC1937, HCC38, HCC70, HMC18, HS578T, MDAMB157, MDAMB231, MDAMB436, MDAMB453, MDAMB468, MFM223, SUM102PT, SUM1315MO2, SUM149PT, SUM159PT, SUM185PE, SUM229PE
+luminal screened: CAMA1, EFM19, HCC1428, KPL1, MCF7, MDAMB415, T47D, ZR751
+sha256 75270bf40cf046569d72511c3b4b7adc444940f682a134ffb0711e06163cbb94

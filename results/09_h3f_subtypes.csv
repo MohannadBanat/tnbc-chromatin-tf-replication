@@ -1,0 +1,5 @@
+subtype,n_lines,n_dep,non_common_essential,common_essential
+basal_A,7,5,FOXM1,"HMGA1, ILF2, MED30, MYC"
+basal_B,11,5,-,"HMGA1, ILF2, MED30, MYC, SRF"
+basal_unspecified,3,8,"FOSL1, WWTR1","HMGA1, ILF2, MED30, MYC, NFE2L3, SRF"
+luminal_like_TNBC,4,5,-,"HMGA1, ILF2, MED30, MYC, SRF"

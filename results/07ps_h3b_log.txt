@@ -1,0 +1,36 @@
+TNBC lines: 14; genes in signature: 18630; TFs with activity: 1680
+n_HC: 92
+median_rho_activity: 0
+n_negative: 46
+sign_test_p_one_sided: 0.5415
+null_median: -0.001097
+null_lo: -0.08137
+null_hi: 0.07473
+p_vs_null: 1
+median_rho_mRNA: -0.02865
+median_paired_diff: 0.03077
+wilcoxon_p: 0.07362
+n_HC_FDR05: 0
+
+HC-TFs, most negative rho (activity):
+     TF  rho_activity  p_activity  FDR_activity_HC  rho_mRNA  median_effect
+  FOSL1        -0.613      0.0197            0.796    -0.653         -0.382
+    PML        -0.547      0.0428            0.886    -0.174       -0.00613
+   SOX9        -0.512      0.0612            0.886    -0.815         -0.244
+   E2F3        -0.481      0.0814            0.886    -0.538          -0.15
+  ZNF22        -0.451       0.106            0.886    -0.169         0.0282
+   NFIB        -0.429       0.126            0.922   -0.0286          0.077
+CREB3L2        -0.407       0.149            0.922    -0.433       -0.00781
+  ATOH7        -0.398       0.159            0.922    -0.434         0.0932
+   LMO4         -0.38        0.18            0.922     0.604        -0.0381
+  FOXQ1        -0.336        0.24            0.922   -0.0396           0.17
+
+Key TFs:
+    TF  rho_activity  p_activity  rho_mRNA  median_effect
+  CBFB         0.266       0.358    0.0681        -0.0469
+  E2F3        -0.481      0.0814    -0.538          -0.15
+ FOXC1        -0.292       0.311    -0.248         0.0475
+   ID4         0.376       0.185     -0.24        -0.0818
+   MYC       -0.0989       0.737    0.0769           -1.2
+NFE2L3         0.297       0.303    0.0505           -0.6
+  SOX9        -0.512      0.0612    -0.815         -0.244

@@ -1,0 +1,31 @@
+Bahl: 48 samples, 24 lines, 6564981 peaks
+Consensus regions (called in >= 2 samples): 504081 of 867741 merged regions; median width 463 bp
+[    17s] Bahl matrix built
+[    63s] Lund GSM9856660_BT_549_rep1.bw done
+[   112s] Lund GSM9856661_BT_549_rep2.bw done
+[   147s] Lund GSM9856662_HCC1599_rep1.bw done
+[   205s] Lund GSM9856663_HCC1599_rep2.bw done
+[   272s] Lund GSM9856664_HCC1937_rep1.bw done
+[   321s] Lund GSM9856665_HCC1937_rep2.bw done
+[   358s] Lund GSM9856666_HCC2157_rep1.bw done
+[   393s] Lund GSM9856667_HCC2157_rep2.bw done
+[   444s] Lund GSM9856668_MDA_MB_231_rep1.bw done
+[   492s] Lund GSM9856669_MDA_MB_231_rep2.bw done
+[   534s] Lund GSM9856670_MDA_MB_453_rep1.bw done
+[   576s] Lund GSM9856671_MDA_MB_453_rep2.bw done
+[   623s] Lund GSM9856672_MDA_MB_468_rep1.bw done
+[   683s] Lund GSM9856673_MDA_MB_468_rep2.bw done
+[   721s] Lund GSM9856674_SUM185PE_rep1.bw done
+[   757s] Lund GSM9856675_SUM185PE_rep2.bw done
+Lund lines: ['BT549', 'HCC1599', 'HCC1937', 'HCC2157', 'MDAMB231', 'MDAMB453', 'MDAMB468', 'SUM185PE']; shared lines: ['BT549', 'HCC1937', 'MDAMB231', 'MDAMB468']
+Replicate agreement (Spearman over consensus regions): Lund {'BT549': np.float64(0.743), 'HCC1937': np.float64(0.822), 'MDAMB231': np.float64(0.877), 'MDAMB468': np.float64(0.831)} | Bahl {'BT549': np.float64(0.682), 'HCC1937': np.float64(0.692), 'MDAMB231': np.float64(0.89), 'MDAMB468': np.float64(0.725)}
+[   760s] matrices cached
+/home/claude/Biomolecules - Research article NOV 2026/scripts/14b_h1_binarised_sensitivity.py:89: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  k = int(called_B.sum(0).median())
+k (regions called per sample, Bahl median) = 104669; called per line: Bahl median 119078, Lund median 118077
+               set     line  same_line_crosslab  max_within_Bahl max_within_Bahl_line  max_within_Lund max_within_Lund_line  primary_pass  crosslab_rank_of_same_line  n_bahl_lines  best_crosslab_other best_crosslab_other_line
+binarised, Jaccard    BT549               0.310            0.314               HS578T            0.360             MDAMB231         False                           2            24                0.356                    HDQP1
+binarised, Jaccard  HCC1937               0.352            0.375                 BT20            0.450             MDAMB468         False                           8            24                0.461                    HDQP1
+binarised, Jaccard MDAMB231               0.515            0.442                HDQP1            0.424              HCC1937          True                           1            24                0.454                    HDQP1
+binarised, Jaccard MDAMB468               0.596            0.409                HDQP1            0.450              HCC1937          True                           1            24                0.417                    HDQP1
+binarised: primary criterion met for 2/4; same line ranked first cross-lab for 2/4

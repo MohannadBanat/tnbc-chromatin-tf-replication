@@ -1,0 +1,15 @@
+Bahl pairs significant in >= 2 datasets: 176 (paper reports 176); TFs 76, drugs 43
+TNBC lines with PRISM + expression: 16
+Pairs testable in PRISM: 148 of 176; replicated: 3 (0.020; 95% CI 0.004-0.058); same direction regardless of p: 89/148
+100 null sets done
+200 null sets done
+300 null sets done
+400 null sets done
+500 null sets done
+600 null sets done
+700 null sets done
+800 null sets done
+900 null sets done
+1000 null sets done
+Random-pair null (10,000 permutations per pair): mean 0.0200 (95% 0.0000-0.0473); one-sided p = 0.565
+observed pairs identical to script 10: True

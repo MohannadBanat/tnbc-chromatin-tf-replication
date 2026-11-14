@@ -1,0 +1,57 @@
+drug,moa,TF,C,p,n,FDR
+sirolimus,mTOR inhibitor,CBFB,0.803,0.006699,12,0.3751
+PI-103,"mTOR inhibitor, PI3K inhibitor",CBFB,0.6667,0.1471,12,1
+WAY-600,mTOR inhibitor,CBFB,0.6545,0.2224,11,1
+deforolimus,mTOR inhibitor,CBFB,0.6364,0.2821,11,1
+PKI-179,"mTOR inhibitor, PI3K inhibitor",CBFB,0.6364,0.2823,11,1
+temsirolimus,mTOR inhibitor,CBFB,0.5917,0.3506,16,1
+WYE-125132,mTOR inhibitor,CBFB,0.6182,0.3509,11,1
+AZD8055,mTOR inhibitor,CBFB,0.6182,0.3687,11,1
+PF-05212384,"mTOR inhibitor, PI3K inhibitor",CBFB,0.5909,0.4497,12,1
+LY3023414,"PI3K inhibitor, mTOR inhibitor",CBFB,0.5909,0.4503,12,1
+torin-2,mTOR inhibitor,CBFB,0.5818,0.5383,11,1
+voxtalisib,"mTOR inhibitor, PI3K inhibitor",CBFB,0.4242,0.5405,12,1
+PF-04691502,"mTOR inhibitor, PI3K inhibitor",CBFB,0.4182,0.5447,11,1
+MLN0128,mTOR inhibitor,CBFB,0.45,0.6131,16,1
+OSI-027,mTOR inhibitor,CBFB,0.5606,0.6351,12,1
+LY303511,"casein kinase inhibitor, mTOR inhibitor, PI3K inhibitor",CBFB,0.4394,0.6372,12,1
+ku-0063794,mTOR inhibitor,CBFB,0.5606,0.6388,12,1
+torin-1,mTOR inhibitor,CBFB,0.5455,0.7363,12,1
+SB-2343,"mTOR inhibitor, PI3K inhibitor",CBFB,0.5455,0.7448,12,1
+AZD2014,mTOR inhibitor,CBFB,0.4667,0.7481,16,1
+everolimus,mTOR inhibitor,CBFB,0.5333,0.7487,16,1
+PP242,mTOR inhibitor,CBFB,0.5455,0.7605,11,1
+WYE-354,mTOR inhibitor,CBFB,0.5303,0.8427,12,1
+XL388,mTOR inhibitor,CBFB,0.5333,0.8567,10,1
+palomid-529,"AKT inhibitor, mTOR inhibitor",CBFB,0.5333,0.861,10,1
+NVP-BEZ235,"mTOR inhibitor, PI3K inhibitor",CBFB,0.5143,0.921,15,1
+GDC-0980,"mTOR inhibitor, PI3K inhibitor",CBFB,0.4917,0.9663,16,1
+GSK2126458,"mTOR inhibitor, PI3K inhibitor",CBFB,0.5,1,9,1
+WYE-125132,mTOR inhibitor,NFE2L3,0.2727,0.06039,11,1
+LY3023414,"PI3K inhibitor, mTOR inhibitor",NFE2L3,0.2879,0.06579,12,1
+palomid-529,"AKT inhibitor, mTOR inhibitor",NFE2L3,0.2889,0.1059,10,1
+XL388,mTOR inhibitor,NFE2L3,0.2889,0.1106,10,1
+AZD2014,mTOR inhibitor,NFE2L3,0.3583,0.1362,16,1
+deforolimus,mTOR inhibitor,NFE2L3,0.3636,0.2881,11,1
+ku-0063794,mTOR inhibitor,NFE2L3,0.3788,0.3001,12,1
+GDC-0980,"mTOR inhibitor, PI3K inhibitor",NFE2L3,0.4,0.3005,16,1
+torin-2,mTOR inhibitor,NFE2L3,0.3818,0.3541,11,1
+torin-1,mTOR inhibitor,NFE2L3,0.3939,0.3873,12,1
+MLN0128,mTOR inhibitor,NFE2L3,0.425,0.4496,16,1
+WYE-354,mTOR inhibitor,NFE2L3,0.4091,0.4576,12,1
+PF-04691502,"mTOR inhibitor, PI3K inhibitor",NFE2L3,0.5818,0.54,11,1
+AZD8055,mTOR inhibitor,NFE2L3,0.4182,0.5423,11,1
+sirolimus,mTOR inhibitor,NFE2L3,0.4394,0.6397,12,1
+NVP-BEZ235,"mTOR inhibitor, PI3K inhibitor",NFE2L3,0.4571,0.7003,15,1
+SB-2343,"mTOR inhibitor, PI3K inhibitor",NFE2L3,0.4545,0.738,12,1
+PI-103,"mTOR inhibitor, PI3K inhibitor",NFE2L3,0.4545,0.7408,12,1
+PP242,mTOR inhibitor,NFE2L3,0.4545,0.753,11,1
+WAY-600,mTOR inhibitor,NFE2L3,0.4545,0.7671,11,1
+everolimus,mTOR inhibitor,NFE2L3,0.475,0.8276,16,1
+LY303511,"casein kinase inhibitor, mTOR inhibitor, PI3K inhibitor",NFE2L3,0.5303,0.8379,12,1
+OSI-027,mTOR inhibitor,NFE2L3,0.4697,0.8389,12,1
+PKI-179,"mTOR inhibitor, PI3K inhibitor",NFE2L3,0.4727,0.8751,11,1
+temsirolimus,mTOR inhibitor,NFE2L3,0.4833,0.8938,16,1
+voxtalisib,"mTOR inhibitor, PI3K inhibitor",NFE2L3,0.5152,0.9448,12,1
+GSK2126458,"mTOR inhibitor, PI3K inhibitor",NFE2L3,0.5,1,9,1
+PF-05212384,"mTOR inhibitor, PI3K inhibitor",NFE2L3,0.5,1,12,1

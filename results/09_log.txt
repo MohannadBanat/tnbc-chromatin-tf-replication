@@ -1,0 +1,27 @@
+H3f subtypes:
+          subtype  n_lines  n_dep non_common_essential                     common_essential
+          basal_A        7      5                FOXM1              HMGA1, ILF2, MED30, MYC
+          basal_B       11      5                    -         HMGA1, ILF2, MED30, MYC, SRF
+basal_unspecified        3      8         FOSL1, WWTR1 HMGA1, ILF2, MED30, MYC, NFE2L3, SRF
+luminal_like_TNBC        4      5                    -         HMGA1, ILF2, MED30, MYC, SRF
+
+H3b FDR-significant HC-TFs: ['ZIC4']
+ZIC4: H3b rho = -0.689; median gene effect in TNBC = 0.061
+Traceback (most recent call last):
+  File "/home/claude/Biomolecules - Research article NOV 2026/scripts/09_h3e_h3f.py", line 50, in <module>
+    beta, *_ = np.linalg.lstsq(Xr, rankdata(eff), rcond=None)
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/numpy/linalg/_linalg.py", line 2539, in lstsq
+    x, resids, rank, s = _umath_linalg.lstsq(a, b, rcond,
+                         ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+                                             signature=signature)
+                                             ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/numpy/linalg/_linalg.py", line 156, in _raise_linalgerror_lstsq
+    raise LinAlgError("SVD did not converge in Linear Least Squares")
+numpy.linalg.LinAlgError: SVD did not converge in Linear Least Squares
+ ** On entry to DLASCL parameter number  4 had an illegal value
+ ** On entry to DLASCL parameter number  4 had an illegal value
+H3b FDR-significant HC-TFs: ['ZIC4']
+ZIC4: H3b rho = -0.689; median gene effect in TNBC = 0.061
+  technical-only model (growth, screen QC [ScreenNNMD], copy number) explains R2 = 0.08 of the ranked gene effect (n = 24)
+  copy number vs gene effect: rho = 0.150

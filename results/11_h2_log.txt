@@ -1,0 +1,9 @@
+Bahl cell lines: 82; matched to DepMap expression: 49
+HC-TFs compared: 93; median per-TF rho = 0.803 (bootstrap 95% CI 0.767-0.835); permutation null median -0.003 (95% -0.143-0.155); one-sided p = 0.0010
+HC-TFs with rho >= 0.5: 86; rho < 0.2: 0; non-HC TNBC-specific TFs median rho = 0.745
+  NFE2L3: rho = 0.882
+  CBFB: rho = 0.866
+  MYC: rho = 0.863
+  SOX9: rho = 0.864
+  FOXC1: rho = 0.920
+  E2F3: rho = 0.741
