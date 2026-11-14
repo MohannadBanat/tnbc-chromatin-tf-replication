@@ -1,0 +1,39 @@
+{
+  "title": "Code and analysis records for: Integrative Bioinformatics Analysis of Chromatin-Informed Transcription-Factor Biomarkers in Triple-Negative Breast Cancer: An Independent Replication Study",
+  "upload_type": "software",
+  "description": "Analysis code, SHA-256-hashed internal analysis plan (5 November 2026) and its amendment, frozen cell-line groups, deviations log, results files, figures and data checksums for an independent replication of Bahl et al. (Nat. Commun. 2026, doi:10.1038/s41467-026-76385-8) using public data only: DepMap 23Q2, Project Score, DEMETER2, PRISM Repurposing 20Q2, GDSC1, and GEO GSE323120, GSE337499 and GSE337500. Raw data are not redistributed.",
+  "creators": [
+    {
+      "name": "Arabiat, Areen",
+      "affiliation": "Department of Communications and Computer Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan"
+    },
+    {
+      "name": "Abu Kiwan, Alia",
+      "affiliation": "Department of Medical Laboratory Sciences, Faculty of Allied Medical Sciences, Al-Ahliyya Amman University, Amman, Jordan"
+    },
+    {
+      "name": "Banat, Mohannad",
+      "affiliation": "Department of Medical Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan"
+    },
+    {
+      "name": "Abbas, Manal A.",
+      "affiliation": "Department of Medical Laboratory Sciences, Faculty of Allied Medical Sciences, Al-Ahliyya Amman University, Amman, Jordan"
+    },
+    {
+      "name": "Abu Owida, Hamza",
+      "affiliation": "Department of Medical Engineering, Faculty of Engineering, Al-Ahliyya Amman University, Amman, Jordan"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "triple-negative breast cancer",
+    "transcription factor activity",
+    "chromatin accessibility",
+    "CRISPR dependency",
+    "pharmacogenomics",
+    "reproducibility",
+    "everolimus",
+    "VIPER"
+  ],
+  "access_right": "open"
+}
