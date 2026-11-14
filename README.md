@@ -1,5 +1,9 @@
 # Chromatin-informed TF biomarkers in TNBC: an independent bioinformatics replication
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24210657.svg)](https://doi.org/10.5281/zenodo.24210657)
+
+Release v1.0 (the version submitted with the manuscript) is archived at Zenodo: https://doi.org/10.5281/zenodo.24210657
+
 Code, pre-registered analysis plan and results for:
 
 > Arabiat A., Abu Kiwan A., Banat M., Abbas M., Abu Owida H. *Integrative Bioinformatics Analysis of Chromatin-Informed Transcription-Factor Biomarkers in Triple-Negative Breast Cancer: An Independent Replication Study.* Submitted to *Biomolecules* (MDPI), 2026.
